@@ -1,0 +1,90 @@
+/* .nav {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .nav-button {
+    background-color: grey;
+  } */
+
+body {
+    padding: 20px;
+}
+
+.about {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.intro {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 65px;
+
+    margin-top: -40px;
+    color: #000000;
+}
+
+.selfie img{
+    width: 350px;
+    height: 400px;
+    border-radius: 30%;
+    float: left;
+    padding-right: 40px;
+}
+
+.coursework-row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.class{
+    background: #E4E4E4;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.work-row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.work{
+    background: #E4E4E4;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.project-row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.project{
+    background: #E4E4E4;
+    border-radius: 15px;
+    padding: 10px;
+    width: 400px;
+}
+
+.contact {
+    display: flex;
+    align-items: flex-end;
+    align-content: space-between;
+}
+
+.contact h2 {
+    padding-right: 870px;
+}
+
+.social img{
+    width: 50px;
+    height: 50px;
+    padding-right: 10px;
+}
